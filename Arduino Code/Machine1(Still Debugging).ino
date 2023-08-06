@@ -44,6 +44,7 @@ PMS pms(pmsSerial);
 PMS::DATA dat;
 
 unsigned long time_1 = 0;
+int O3;
 
 
 void setup() {
@@ -108,7 +109,7 @@ void loop() {
   if (millis() > time_1 + INTERVAL_MESSAGE) {    //60000ms
     time_1 = millis();
     MQ131.update(); // Update data, the arduino will read the voltage from the analog pin
-    MQ131.readSensorR0Rs(); // Sensor will read PPM concentration using the model, a and b values set previously or from the setup
+    O3=MQ131.readSensorR0Rs(); // Sensor will read PPM concentration using the model, a and b values set previously or from the setup
     MQ131.serialDebug(); // Will print the table on the serial port
 
     //DHT
