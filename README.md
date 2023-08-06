@@ -1,7 +1,8 @@
 <p align="center">
   <img width="180" src="./icon.png" alt="Air-conditioner">
-  <h1 align="center">Air-Quality-Analysis(空氣品質分析)</h1>
-  <a href ="http://210.60.51.33/" align="center">連結</a>
+  <h1 align="center">Air-Quality-Analysis(空氣品質分析)
+   <a href ="http://210.60.51.33/" >連結</a>
+  </h1>
   <p align="center">製作者:陳品誌</p>
 </p>
 
