@@ -27,7 +27,7 @@
 ## 電路
 <img src="./circuit.svg">
 
-## Arduino需要下載的函式庫
+## Arduino需要自行下載的函式庫
 - MQUnifiedsensor.h
 - DHT.h
 - PMS.h
