@@ -24,7 +24,7 @@
 - OLED顯示器:SSD1306
 - 穩壓IC X2(盡量選功耗低的)
 
-## 電路
+## 電路圖
 <img src="./circuit.svg">
 
 ## Arduino需要自行下載的函式庫
